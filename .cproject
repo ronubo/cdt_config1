@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="cdt.managedbuild.toolchain.gnu.base.1064370982">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.toolchain.gnu.base.1064370982" moduleId="org.eclipse.cdt.core.settings" name="Default">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration buildProperties="" description="" id="cdt.managedbuild.toolchain.gnu.base.1064370982" name="Default" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="cdt.managedbuild.toolchain.gnu.base.1064370982.1812884197" name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.base.1352961462" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.base">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.GNU_ELF" id="cdt.managedbuild.target.gnu.platform.base.257416712" name="Debug Platform" osList="linux,hpux,aix,qnx" superClass="cdt.managedbuild.target.gnu.platform.base"/>
+							<builder id="cdt.managedbuild.target.gnu.builder.base.1686649553" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.base">
+								<outputEntries>
+									<entry flags="VALUE_WORKSPACE_PATH" kind="outputPath" name="out/target/product/generic_x86/symbols"/>
+								</outputEntries>
+							</builder>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.base.1187609096" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.base.277271835" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.base">
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1014111367" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.base.1374678873" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.base">
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.213159203" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.base.1040332162" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.base.48325404" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.base">
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.1086077138" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.base.2142728538" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.base">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1804734086" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="abi|art|bionic|bootable|build|cts|dalvik|developers|development|device|external|frameworks|hardware|libcore|libnativehelper|packages|sdk|system|out/**|**/.git" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name=""/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="abi"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="art"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="bionic"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="bootable"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="build"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="cts"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="dalvik"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="developers"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="development"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="device"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="external"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="frameworks"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="hardware"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="libcore"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="libnativehelper"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="packages"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="sdk"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="system"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="master.null.112726750" name="master"/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.toolchain.gnu.base.1064370982;cdt.managedbuild.toolchain.gnu.base.1064370982.1812884197;cdt.managedbuild.tool.gnu.cpp.compiler.base.277271835;cdt.managedbuild.tool.gnu.cpp.compiler.input.1014111367">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.toolchain.gnu.base.1064370982;cdt.managedbuild.toolchain.gnu.base.1064370982.1812884197;cdt.managedbuild.tool.gnu.c.compiler.base.1374678873;cdt.managedbuild.tool.gnu.c.compiler.input.213159203">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Default">
+			<resource resourceType="PROJECT" workspacePath="/master"/>
+		</configuration>
+	</storageModule>
+</cproject>
